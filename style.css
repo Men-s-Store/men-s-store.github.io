@@ -67,13 +67,15 @@ button , li {
     background-position: center center;
     height: clamp(250px, 30vw, 500px);
     position: relative;
+    padding-top: 300px;
+
 }
 .main_image h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 .main_image_content {
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 52%;
     color: white;
 }
