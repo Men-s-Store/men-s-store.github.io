@@ -18,6 +18,11 @@ button , li {
     --main-color: #fcc646;
     --hover-color: #f4ab00;
 }
+.nav{
+    position: fixed;
+    width: 100%;
+    z-index: 1000000;
+}
 .nav_middle ul {
     display: none;
     column-gap: 18px;
@@ -26,11 +31,6 @@ button , li {
     color: #fff4f4;
     align-items: center;
     font-size: 20px;
-}
-.nav{
-    position: fixed;
-    width: 100%;
-    z-index: 1000000;
 }
 .nav {
     background-color: rgba(0, 0, 0, 0.83);
@@ -671,4 +671,3 @@ footer {
 /* xxl (min-width: 1536px) */
 @media screen and (min-width: 1536px) {
 }
-
